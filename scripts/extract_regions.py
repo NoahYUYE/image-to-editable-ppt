@@ -22,9 +22,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--regions", required=True, type=Path, help="JSON region specification"
     )
-    parser.add_argument(
-        "--out", required=True, type=Path, help="Output directory"
-    )
+    parser.add_argument("--out", required=True, type=Path, help="Output directory")
     parser.add_argument(
         "--white-offset",
         type=float,
