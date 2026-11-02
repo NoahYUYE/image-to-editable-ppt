@@ -77,3 +77,4 @@ Use this JSON format with `scripts/extract_regions.py`:
 - The overflow test passes.
 - The final folder contains only requested deliverables.
 - The handoff distinguishes native objects from raster image elements.
+
